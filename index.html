@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+    <title>IMC</title>
+</head>
+
+<body>
+    <div class="bloco_principal">
+        <div class="div_dados">
+            <div class="image">
+                <img id="imc_img" src="imgs/logo-imc3.png" alt="img">
+                <p>SEU IMC É: <span id="res">?</span></p>
+            </div>
+        </div>
+        <div class="div_form">
+            <p id="msg"></p>
+            <div class="main">
+                <div class="div_input">
+                    <input id="peso" placeholder="Peso" class="input">
+                </div>
+    
+                <div class="div_input">
+                    <input id="altura" placeholder="Altura" class="input" onkeypress="mask()">
+                </div>
+                <div class="check">
+                    <input name = "faixa_etaria" id = "faixa_etaria" type="radio" checked >Adulto
+                    <input name = "faixa_etaria" type="radio" >Idoso
+                </div>
+
+                <button type="button" onclick="calcular()">Calcular</button>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="txt">
+        <h1>Como melhorar o resultado do IMC</h1>
+        <br>
+        <p >
+            Quando o resultado do IMC não é o ideal, existem alguns cuidados, principalmente com a alimentação, que podem ajudar a atingir o valor ideal:
+        </p>
+
+        <br>
+        <h1>1. O que fazer para baixar o IMC</h1>
+        <br>
+
+        <p >
+            Se o resultado do IMC estiver acima do ideal e a pessoa não for muito musculosa, nem atleta, pode indicar que é preciso emagrecer, eliminando o acúmulo de gordura, que contribui para o peso alto. Para isso deve-se comer somente alimentos ricos em vitaminas e minerais, tendo o cuidado de diminuir o consumo de alimentos industrializados e ricos em gordura, como massa folheada, bolos, biscoitos recheados e salgadinhos, por exemplo.
+            Para que os resultados sejam alcançados ainda mais rápido é aconselhado fazer exercícios para aumentar o gasto calórico e aumentar o metabolismo. Recorrer a chás e suplementos naturais pode ser um estímulo para ajudar a emagrecer de forma mais rápida e saudável, sem ter que passar fome. Alguns exemplos são o chá de hibisco ou o chá de gengibre com canela, mas um nutricionista poderá indicar outros que sejam mais adequados às necessidades de cada pessoa
+        </p>
+
+        <br>
+        <h1>2. O que fazer para aumentar o IMC</h1>
+        <br>
+
+        <p >
+            Se o resultado do IMC estiver abaixo do ideal, o que se deve fazer é aumentar a ingestão de alimentos ricos em vitaminas e minerais de boa qualidade, mas sem cair no erro de comer alimentos processados e ricos em gordura trans. Pizzas, frituras, cachorro quente e hambúrguer não são os melhores alimentos para quem precisa aumentar o peso de forma saudável, porque este tipo de gordura pode se acumular no interior das artérias, aumentando o risco de doença cardíaca.
+        </p>
+        <br>
+
+        <div id="img_1">
+            <img src="imgs/alimentos_saudavel.jpg" >
+        </div>
+
+        <h1>Quando não calcular o IMC</h1>
+        <br>
+        <p >
+            Apesar do IMC ser muito utilizado para verificar se o indivíduo está acima do peso ou não, este método possui algumas falhas e, por isso, recomenda-se que além dele, utilize outros meios de diagnóstico para verificar se o indivíduo está realmente acima ou abaixo do peso ideal, como a medição da prega de gordura.
+        </p>
+
+        <br>
+        <br>
+
+        <h1>Benefícios de ter uma alimentação saudavel</h1>
+        <p>
+            Uma alimentação saudável ajuda a proteger contra a má nutrição em todas as suas formas, bem como contra as doenças crônicas não transmissíveis (DCNT), entre elas diabetes, doenças cardiovasculares, AVC e câncer.
+            A alimentação não saudável e a falta de atividade física são os principais riscos globais para a saúde.
+            Práticas alimentares saudáveis começam cedo na vida. A amamentação, por exemplo, promove crescimento e melhora o desenvolvimento cognitivo. Além disso, pode ter benefícios a longo prazo para a saúde, reduzindo o risco de obesidade e de sobrepeso, bem como de desenvolvimento de DCNT.
+            A ingestão calórica deve estar em equilíbrio com o gasto calórico. Para evitar um ganho de peso não saudável, as gorduras não devem exceder 30% da ingestão calórica total (1, 2, 3).
+        </p>
+
+        <br>
+
+
+    </div>
+</body>
+
+<br>
+</html>

@@ -1,0 +1,121 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+
+}
+
+body {
+    background-color: #fff;
+
+}
+
+.main{
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+    color: #0d0c22;
+
+}
+.bloco_principal {
+    width: 900px;
+    height: 350px;
+    display: flex;
+    background-color: #04470f;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 3rem;
+    border: none;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.div_dados {
+    width: 450px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+
+}
+
+.div_form {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.div_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
+    padding: 4,5px;
+    margin-bottom: 2rem;
+}
+
+.input {
+    width: 100%;
+    height: 60px;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: .3s ease;
+
+}
+
+.input:hover,button:hover {
+    border-color: #0077b6;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 5%);
+}
+
+button {
+    border: 2px solid transparent;
+    width: 220px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.3s ease;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+
+}
+
+
+#txt{
+    margin-top: 40px;
+    margin-inline: 500px ;
+    text-align: justify;
+}
+
+.img_1{
+    height: 500px;
+    width: 900px;
+}
