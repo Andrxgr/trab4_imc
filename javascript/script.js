@@ -40,10 +40,10 @@ function adulto(imc_resultado) {
     if (imc_resultado < 18.5) {
         img = "imgs/peso.png"
     }
-    else if (imc_resultado >= 18.6 && imc_resultado <= 24.9) {
+    else if (imc_resultado >= 18.5 && imc_resultado <= 24.99) {
         img = "imgs/normal.png"
     }
-    else if (imc_resultado >= 25 && imc_resultado <= 29.9) {
+    else if (imc_resultado >= 25 && imc_resultado <= 29.99) {
         img = "imgs/acimadopeso.png"
     }
     else if (imc_resultado >= 30 && imc_resultado <= 34.9) {
