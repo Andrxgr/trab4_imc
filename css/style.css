@@ -118,4 +118,7 @@ button {
 .img_1{
     height: 500px;
     width: 900px;
+    display: flex;
+    justify-content: center;
+    
 }
